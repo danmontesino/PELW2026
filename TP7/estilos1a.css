@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#top {
+    height: 100px;
+    margin: 10px 16px 20px 16px;
+    padding: 30px 10px;
+    background-color: #666666;
+    border: 5px solid #cccccc;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    gap: 28px;
+    margin: 0 8px;
+}
+
+
+#izquierda, #centro, #derecha {
+    height: 530px;
+    background-color: #666666;
+    border: 5px solid #cccccc;
+}
+
+
+#izquierda, #derecha {
+    padding: 30px 10px;
+}
+
+#centro {
+    text-align: center;
+    padding: 30px 10px;
+}
